@@ -8,7 +8,7 @@ on:
 env:
   DOCKER_USERNAME: ${{ secrets.DOCKER_USERNAME }}
   DOCKER_PASSWORD: ${{ secrets.DOCKER_PASSWORD }}
-  DOCKER_IMAGE_NAME: docker-course-2-main
+  DOCKER_IMAGE_NAME: matteofazzeri/docker-course-2-main
 
 jobs:
   publish:
