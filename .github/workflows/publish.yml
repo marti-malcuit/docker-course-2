@@ -25,7 +25,7 @@ jobs:
 
       - name: Extract metadata (tags, labels) for Docker
         id: meta
-        uses: docker/metadata-action@v1.0.1
+        uses: docker/metadata-action@latest
         with:
           images: ghcr.io/docker-course-2-main
 
