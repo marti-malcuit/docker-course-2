@@ -24,7 +24,7 @@ jobs:
         id: meta
         uses: docker/metadata-action@v2
         with:
-          images: ghcr.io/docker-course-2-main
+          images: ghcr.io/${{ github.repository }}/docker-course-2-main
   
       - name: Build and push Docker image
         uses: docker/build-push-action@v2
